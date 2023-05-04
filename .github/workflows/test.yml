@@ -12,8 +12,6 @@ jobs:
         uses: actions/checkout@master
         with:
           fetch-depth: 2
-          token: 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
-
 
       - name: Modified files
         run: |
