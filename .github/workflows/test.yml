@@ -34,7 +34,5 @@ jobs:
       - name: Modified files
 
         run: |
-
-          git fetch origin main:main
-
+          git fetch origin refs/heads/main:refs/remotes/origin/main
           git diff --name-only --diff-filter=d main~ main
